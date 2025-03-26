@@ -22,7 +22,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        // Load environment variables from .env file
+        // TODO: Move all resource loading to setup
         Dotenv dotenv = Dotenv.load();
         String apiKey = dotenv.get("OPENAI_API_KEY");
         if (apiKey == null || apiKey.isEmpty()) {
