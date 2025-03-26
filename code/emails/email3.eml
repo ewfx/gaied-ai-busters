@@ -1,0 +1,25 @@
+From: sender@example.com
+To: receiver@example.com
+Subject: Closing Notice for Deal XYZ
+Date: Mon, 23 Mar 2025 12:00:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary123"
+Message-ID: <msg3@example.com>
+
+--boundary123
+Content-Type: text/plain; charset=UTF-8
+
+Dear Team,
+
+Please issue a closing notice for Deal XYZ. See the attached file for the amount.
+
+Sincerely,
+Sender
+
+--boundary123
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: attachment; filename="amount.txt"
+
+Amount: $15,000
+
+--boundary123--

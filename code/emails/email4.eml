@@ -1,0 +1,15 @@
+From: sender@example.com
+To: receiver@example.com
+Subject: Re: Fee Payment Request
+Date: Mon, 23 Mar 2025 13:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Message-ID: <msg4@example.com>
+In-Reply-To: <msg1@example.com>
+
+Dear Team,
+
+Please process an ongoing fee payment for Deal ABC. The amount and due date are in the attached file.
+
+Regards,
+Sender

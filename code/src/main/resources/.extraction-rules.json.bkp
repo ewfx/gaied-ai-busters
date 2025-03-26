@@ -1,0 +1,10 @@
+{
+    "extraction_rules": {
+        "request_type": "body",
+        "sub_request_type": "body",
+        "deal_name": "body",
+        "amount": "attachment",
+        "due_date": "attachment",
+        "expiration_date": "attachment"
+    }
+}

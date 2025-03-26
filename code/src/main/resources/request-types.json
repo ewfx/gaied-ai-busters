@@ -1,0 +1,30 @@
+{
+    "request_types": {
+        "Adjustment": [],
+        "AU Transfer": [],
+        "Closing Notice": [
+            "Reallocation Fees",
+            "Amendment Fees",
+            "Reallocation Principal"
+        ],
+        "Commitment Change": [
+            "Cashless Roll",
+            "Decrease",
+            "Increase"
+        ],
+        "Fee Payment": [
+            "Ongoing Fee",
+            "Letter of Credit Fee"
+        ],
+        "Money Movement-Inbound": [
+            "Principal",
+            "Principal and Interest",
+            "Interest",
+            "Principal , Interest and Fees"
+        ],
+        "Money Movement-Outbound": [
+            "Timebound",
+            "Foreign Currency"
+        ]
+    }
+}

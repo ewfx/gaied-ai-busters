@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.bank'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Jackson for JSON parsing
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+    // Apache HttpClient for API calls
+    implementation 'org.apache.httpcomponents:httpclient:4.5.14'
+    // Dotenv for loading .env file
+    implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+    // JavaMail for email ingestion
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+    // Apache Commons IO for file handling
+    implementation 'commons-io:commons-io:2.11.0'
+    // SLF4J for logging
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+    implementation 'org.slf4j:slf4j-simple:1.7.36'
+    // Tess4J for OCR
+    implementation 'net.sourceforge.tess4j:tess4j:5.7.0'
+    // PDFBox for PDF parsing
+    implementation 'org.apache.pdfbox:pdfbox:2.0.27'
+    // Simhash for content similarity (duplicate detection)
+    implementation 'com.google.guava:guava:32.1.2-jre'
+    // Test dependencies
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:4.8.0'
+}
+
+application {
+    mainClass = 'com.bank.emailclassifier.Main'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}

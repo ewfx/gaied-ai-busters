@@ -1,0 +1,34 @@
+{
+    "Adjustment": [
+        "deal_name",
+        "amount"
+    ],
+    "AU Transfer": [
+        "deal_name",
+        "amount",
+        "expiration_date"
+    ],
+    "Closing Notice": [
+        "deal_name",
+        "amount",
+        "expiration_date"
+    ],
+    "Commitment Change": [
+        "deal_name",
+        "amount"
+    ],
+    "Fee Payment": [
+        "deal_name",
+        "amount",
+        "expiration_date"
+    ],
+    "Money Movement-Inbound": [
+        "deal_name",
+        "amount"
+    ],
+    "Money Movement-Outbound": [
+        "deal_name",
+        "amount",
+        "expiration_date"
+    ]
+}

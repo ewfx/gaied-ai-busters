@@ -1,0 +1,24 @@
+{
+    "default": {
+        "deal_name": [
+            "body",
+            "attachments"
+        ],
+        "amount": [
+            "attachments",
+            "body"
+        ],
+        "expiration_date": [
+            "attachments",
+            "body"
+        ]
+    },
+    "Adjustment": {
+        "deal_name": [
+            "body"
+        ],
+        "amount": [
+            "body"
+        ]
+    }
+}
